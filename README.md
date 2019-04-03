@@ -1,7 +1,7 @@
 # WilsonPanel
-一套Android源生快速开发基础库
+一套Android源生快速开发基础库,为了方便日常工作开发，提升开发效率
 
-使用方法：
+使用方法：</br>
 1、在工程 build.gradle 中添加：
 allprojects {
     repositories {
