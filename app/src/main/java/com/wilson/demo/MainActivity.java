@@ -21,8 +21,9 @@ public class MainActivity extends BaseActivity implements MainPresenter.ViewMode
     }
 
     @Override
-    public void init() {
+        public void init() {
         mPresenter = new MainPresenter();
+        mPresenter.setViewModel(this);
     }
 
     @Override

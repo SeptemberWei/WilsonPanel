@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LazyRecyclerView">
+        <attr name="lrv_layoutManager" format="enum">
+            <enum name="LinearLayout" value="0" />
+            <enum name="GridLayout" value="1" />
+            <enum name="StaggeredGridLayout" value="2" />
+        </attr>
+        <attr name="lrv_layoutManagerOriention" format="enum">
+            <enum name="Horizontal" value="0" />
+            <enum name="Vertical" value="1" />
+        </attr>
+        <attr name="lrv_spanCount" format="integer" />
+        <attr name="lrv_divider" format="reference|color" />
+        <attr name="lrv_dividerHeight" format="dimension" />
+        <attr name="lrv_itemMargin" format="dimension" />
+        <attr name="lrv_itemMarginAverage" format="boolean" />
+        <attr name="lrv_headerDividerEnable" format="boolean" />
+        <attr name="lrv_footerDividerEnable" format="boolean" />
+        <attr name="lrv_reverseLayout" format="boolean" />
+    </declare-styleable>
+</resources>
